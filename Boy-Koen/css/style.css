@@ -13,6 +13,7 @@ li a {
     padding: 8px 16px;
     text-decoration: none;
     color: white;
+    width: 10em;
 }
 
 /* Change the link color on hover */
@@ -21,14 +22,18 @@ li a:hover {
     color: black;
 }
 
-img.sticky {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
+.fixed {
+    height: auto;
+    position: fixed;
+    z-index: 1;
 }
 
 .image {
-    height: 100%; /* Full height */
-    position: fixed; /* Make it stick, even on scroll */
-    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    width: auto;
+}
+
+.controls {
+    position: fixed;
+    bottom: 0;
+    left: 0
 }
