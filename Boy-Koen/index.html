@@ -1,96 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Title</title>
-        <link rel="stylesheet" href="./css/style.css" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
-        <script src="./js/app.js"></script>
-    </head>
-    <body>
-        <div class="columns">
-            <div class="column is-one-fifth has-background-link-dark">
-                <div class="column pb-0 pr-0 fixed">
-                    <figure class="image">
-                        <img src="./images/SeniorBlauw.jpg">
-                    </figure>
-                    <br>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="prototype.html">Prototype</a></li>
-                    </ul>
-                    <div class="controls">
-                        <input type="button" value="Kleine tekst" onclick="smallText()">
-                        <input type="button" value="Gemiddelde tekst" onclick="mediumText()">
-                        <input type="button" value="Grote tekst" onclick="bigText()">
-                    </div>
-                </div>
-            </div>
-            <div class="column is-four-fifths has-background-white">
-                <div class="box has-background-link px-3 mx-3 mt-3">
-                    <section class="hero is-info">
-                        <div class="hero-body">
-                            <p class="title has-text-centered">
-                                Prototype
-                            </p>
-                        </div>
-                    </section>
-                    <br>
-                    <div class="columns">
-                        <div id="info" class="column has-text-white">
-                            Het prototype wat we gemaakt hebben kan je zien door in de linker kant van uw scherm op
-                            Prototype te klikken.
-                        </div>
-<!--                        <div class="column">-->
-<!--                            <figure class="image is-256x256">-->
-<!--                                <img src="./images/Prototype.png">-->
-<!--                            </figure>-->
-<!--                        </div>-->
-                    </div>
-                </div>
-
-                <div class="box has-background-link	px-3 mx-3 mt-3">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
-                </div>
-                <div class="box has-background-link	px-3 mx-3 mt-3">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
-                </div>
-                <div class="box has-background-link	px-3 mx-3 mt-3">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
-                </div>
-                <div class="box has-background-link	px-3 mx-3 mt-3">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
-                </div>
-                <div class="box has-background-link	px-3 mx-3 mt-3">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
-                </div>
-                <div class="box has-background-link	px-3 mx-3 mt-3">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
-                </div>
-                <div class="box has-background-link	px-3 mx-3 mt-3">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
-                </div>
-                <div class="box has-background-link	px-3 mx-3 mt-3">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
-                </div>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+    <script src="./js/app.js"></script>
+</head>
+<body>
+<div class="columns">
+    <div class="column is-one-fifth has-background-link-dark">
+        <div class="column pb-0 pr-0 fixed">
+            <figure class="image">
+                <img src="./images/SeniorBlauw.jpg">
+            </figure>
+            <br>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="../Fleur/menu.html">Prototype</a></li>
+            </ul>
+            <div class="controls">
+                <input type="button" value="Kleine tekst" onclick="smallText()">
+                <input type="button" value="Gemiddelde tekst" onclick="mediumText()">
+                <input type="button" value="Grote tekst" onclick="bigText()">
             </div>
         </div>
-    <script>
-        function smallText() {
-            document.getElementById("info").classList.remove('is-size-2');
-            document.getElementById("info").classList.remove('is-size-3');
-            document.getElementById("info").classList.add('is-size-5');
-        }
-        function mediumText() {
-            document.getElementById("info").classList.remove('is-size-5');
-            document.getElementById("info").classList.remove('is-size-2');
-            document.getElementById("info").classList.add('is-size-3');
-        }
-        function bigText() {
-            document.getElementById("info").classList.remove('is-size-5');
-            document.getElementById("info").classList.remove('is-size-3');
-            document.getElementById("info").classList.add('is-size-2');
-        }
-    </script>
-    </body>
+    </div>
+    <div class="column is-four-fifths has-background-white">
+        <div class="box has-background-link px-3 mx-3 mt-3">
+            <section class="hero is-info">
+                <div class="hero-body">
+                    <p class="title has-text-centered">
+                        Prototype
+                    </p>
+                </div>
+            </section>
+            <br>
+            <div class="columns">
+                <div id="info" class="column has-text-white">
+                    Het prototype wat we gemaakt hebben kan je zien door in de linker kant van uw scherm op
+                    Prototype te klikken.
+                </div>
+                <!--                        <div class="column">-->
+                <!--                            <figure class="image is-256x256">-->
+                <!--                                <img src="./images/Prototype.png">-->
+                <!--                            </figure>-->
+                <!--                        </div>-->
+            </div>
+        </div>
+        <div id="info" class="box has-background-link	px-3 mx-3 mt-3 has-text-white">
+            We moeten bij het invullen van de website goed letten op het feit dat we niet te veel ingewikkelde termen gebruiken, ook zou het fijn zijn voor de ouderen van Nederland dat het in het Nederlands gewerkt gaat worden omdat ze vaak nog wel een beetje moeite hebben met het lezen en begrijpen in het Engels.
+        </div>
+        <div id="info" class="box has-background-link	px-3 mx-3 mt-3 has-text-white">
+            We hebben ook een steekproef gedaan met hoeveel ouderen er ongeveer in een restaurant kwamen. Hieruit is gebleken dat 1 op de 3 restaurant bezoekers in de Hema ouderen waren. Vaak met zijn tweeën als vrienden en ook vaak in hun eentje terwijl ze de krant lazen of op hun telefoon zaten.
+        </div>
+        <div class="box has-background-link	px-3 mx-3 mt-3">
+            Ik heb toen nog aan een oudere gevraagd wat ze van technologie vonden bij de Hema, daaruit was gebleken dat ze het niet al te fijn vinden. Ze vonden de corona check enorm lastig om mee te werken en zijn daarom rond die tijd niet naar restaurants gegaan, de app was te ingewikkeld voor hen en ze vonden het ook onnodig. Voor de rest wilde de man niet gestoord worden en ben ik maar weggegaan.
+        </div>
+        <div class="box has-background-link	px-3 mx-3 mt-3">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
+        </div>
+        <div class="box has-background-link	px-3 mx-3 mt-3">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
+        </div>
+        <div class="box has-background-link	px-3 mx-3 mt-3">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
+        </div>
+
+
+    </div>
+</div>
+<script>
+    function smallText() {
+        document.getElementById("info").classList.remove('is-size-2');
+        document.getElementById("info").classList.remove('is-size-3');
+        document.getElementById("info").classList.add('is-size-5');
+    }
+    function mediumText() {
+        document.getElementById("info").classList.remove('is-size-5');
+        document.getElementById("info").classList.remove('is-size-2');
+        document.getElementById("info").classList.add('is-size-3');
+    }
+    function bigText() {
+        document.getElementById("info").classList.remove('is-size-5');
+        document.getElementById("info").classList.remove('is-size-3');
+        document.getElementById("info").classList.add('is-size-2');
+    }
+</script>
+</body>
 </html>
