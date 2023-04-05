@@ -10,23 +10,24 @@
     <body>
         <div class="columns">
             <div class="column is-one-fifth has-background-link-dark">
-                <div class="column pb-0 pr-0 fixed">-->
+                <div class="column pb-0 pr-0 fixed">
                     <figure class="image">
                         <img src="./images/SeniorBlauw.jpg">
                     </figure>
                     <br>
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="protoype.php">Prototype</a></li>
-                        <li><a href="team.html">Team</a></li>
+                        <li><a href="prototype.html">Prototype</a></li>
                     </ul>
-                </div>
-                <div class="controls">
-                    Hier controls voor text
+                    <div class="controls">
+                        <input type="button" value="Kleine tekst" onclick="smallText()">
+                        <input type="button" value="Gemiddelde tekst" onclick="mediumText()">
+                        <input type="button" value="Grote tekst" onclick="bigText()">
+                    </div>
                 </div>
             </div>
             <div class="column is-four-fifths has-background-white">
-                <div class="box has-background-link	px-3 mx-3 mt-3">
+                <div id="info" class="box has-background-link	px-3 mx-3 mt-3">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
                 </div>
                 <div class="box has-background-link	px-3 mx-3 mt-3">
@@ -55,5 +56,22 @@
                 </div>
             </div>
         </div>
+    <script>
+        function smallText() {
+            document.getElementById("info").classList.remove('is-size-2');
+            document.getElementById("info").classList.remove('is-size-3');
+            document.getElementById("info").classList.add('is-size-5');
+        }
+        function mediumText() {
+            document.getElementById("info").classList.remove('is-size-5');
+            document.getElementById("info").classList.remove('is-size-2');
+            document.getElementById("info").classList.add('is-size-3');
+        }
+        function bigText() {
+            document.getElementById("info").classList.remove('is-size-5');
+            document.getElementById("info").classList.remove('is-size-3');
+            document.getElementById("info").classList.add('is-size-2');
+        }
+    </script>
     </body>
 </html>
